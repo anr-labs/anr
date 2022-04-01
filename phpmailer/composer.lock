@@ -30,7 +30,7 @@
                 "symfony/process": "~2.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.7.*",
+                "phpunit/phpunit": "4.8.*",
                 "symfony/validator": "~2.1"
             },
             "suggest": {
@@ -169,7 +169,7 @@
             },
             "require": {
                 "doctrine/lexer": "1.*",
-                "php": ">=5.3.2"
+                "php": ">=6.3.2"
             },
             "require-dev": {
                 "doctrine/cache": "1.*",
@@ -236,7 +236,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3,<8.0-DEV"
+                "php": ">=6.3,<8.0-DEV"
             },
             "require-dev": {
                 "athletic/athletic": "~0.1.8",
@@ -290,7 +290,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=6.3.2"
             },
             "type": "library",
             "extra": {
@@ -385,13 +385,13 @@
             "require": {
                 "ext-json": "*",
                 "justinrainbow/json-schema": ">=1.0,<2.0-dev",
-                "php": ">=5.3.3",
+                "php": ">=6.3.3",
                 "seld/jsonlint": ">=1.0,<2.0-dev"
             },
             "require-dev": {
                 "herrera-io/phpunit-test-case": "1.*",
                 "mikey179/vfsstream": "1.1.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.8.*"
             },
             "type": "library",
             "extra": {
@@ -446,12 +446,12 @@
             "require": {
                 "herrera-io/json": "1.*",
                 "kherge/version": "1.*",
-                "php": ">=5.3.3"
+                "php": ">=6.3.3"
             },
             "require-dev": {
                 "herrera-io/phpunit-test-case": "1.*",
                 "mikey179/vfsstream": "1.1.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.8.*"
             },
             "type": "library",
             "extra": {
@@ -502,7 +502,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=6.3.0"
             },
             "require-dev": {
                 "doctrine/cache": "~1.0"
@@ -593,7 +593,7 @@
                 "doctrine/instantiator": "~1.0.3",
                 "jms/metadata": "~1.1",
                 "jms/parser-lib": "1.*",
-                "php": ">=5.4.0",
+                "php": ">=6.4.0",
                 "phpcollection/phpcollection": "~0.1"
             },
             "conflict": {
@@ -603,7 +603,7 @@
                 "doctrine/orm": "~2.1",
                 "doctrine/phpcr-odm": "~1.0.1",
                 "jackalope/jackalope-doctrine-dbal": "1.0.*",
-                "phpunit/phpunit": "~4.0",
+                "phpunit/phpunit": "~4.8",
                 "propel/propel1": "~1.7",
                 "symfony/filesystem": "2.*",
                 "symfony/form": "~2.1",
@@ -662,12 +662,12 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.29"
+                "php": ">=6.3.29"
             },
             "require-dev": {
                 "json-schema/json-schema-test-suite": "1.1.0",
                 "phpdocumentor/phpdocumentor": "~2",
-                "phpunit/phpunit": "~3.7"
+                "phpunit/phpunit": "~4.8"
             },
             "bin": [
                 "bin/validate-json"
@@ -728,7 +728,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=6.3.3"
             },
             "type": "library",
             "extra": {
@@ -771,7 +771,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
+                "php": ">=6.3.0",
                 "psr/log": "~1.0"
             },
             "provide": {
@@ -784,7 +784,7 @@
                 "jakub-onderka/php-parallel-lint": "0.9",
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
-                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit": "~4.8",
                 "phpunit/phpunit-mock-objects": "2.3.0",
                 "raven/raven": "^0.13",
                 "ruflin/elastica": ">=0.90 <3.0",
@@ -850,7 +850,7 @@
             },
             "require": {
                 "ext-tokenizer": "*",
-                "php": ">=5.3"
+                "php": ">=6.3"
             },
             "type": "library",
             "extra": {
@@ -944,11 +944,11 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
+                "php": ">=6.3.3",
                 "symfony/finder": "~2.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.7"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "library",
             "autoload": {
@@ -987,10 +987,10 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=6.3.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "~4.8"
             },
             "type": "library",
             "autoload": {
@@ -1033,7 +1033,7 @@
                 "herrera-io/phar-update": "1.0.3",
                 "jms/serializer": ">=0.12",
                 "monolog/monolog": "~1.6",
-                "php": ">=5.3.3",
+                "php": ">=6.3.3",
                 "phpdocumentor/fileset": "~1.0",
                 "phpdocumentor/graphviz": "~1.0",
                 "phpdocumentor/reflection": "^3.0",
@@ -1058,7 +1058,7 @@
                 "behat/behat": "~3.0",
                 "mikey179/vfsstream": "~1.2",
                 "mockery/mockery": "~0.9@dev",
-                "phpunit/phpunit": "~4.0",
+                "phpunit/phpunit": "~4.8",
                 "squizlabs/php_codesniffer": "~1.4",
                 "symfony/expression-language": "~2.4"
             },
