@@ -1044,7 +1044,7 @@
                 "symfony/process": "~2.0",
                 "symfony/stopwatch": "~2.3",
                 "symfony/validator": "~2.2",
-                "twig/twig": "~1.38",
+                "twig/twig": "~1.44",
                 "zendframework/zend-cache": "~2.1",
                 "zendframework/zend-config": "~2.1",
                 "zendframework/zend-filter": "~2.1",
@@ -2808,7 +2808,7 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.38.0",
+            "version": "v1.44.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
