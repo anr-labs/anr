@@ -8,7 +8,7 @@ $(function() {
                 return;
             };
             i++;
-            result += srcText[i].replace("\n", "<br />");
+            result += srcText[i].replace(/\n/g, "<br />");
             $("#typed").html(result);
     },
     60); // the period between every character and next one, in milliseonds.
