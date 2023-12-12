@@ -398,7 +398,7 @@ p {
   .btn .btn-label {
     padding: 4px 0; }
   .btn:hover, .btn:focus, .btn:active {
-    background: #141414 !important;
+    background: #e91e63 !important;
     outline: none !important;
     border: none !important;
     color: #fff !important; }
