@@ -1,6 +1,8 @@
 /*! lightgallery - v1.2.18 - 2016-04-13
 * http://sachinchoolur.github.io/lightGallery/
-* Copyright (c) 2016 Sachin N; Licensed Apache 2.0 */
+* Copyright (c) 2016 Sachin N; Licensed Apache 2.0 
+* Vulnerabilities fixed by Anudeep N Rao
+*/
 (function($, window, document, undefined) {
 
     'use strict';
@@ -763,9 +765,9 @@
 
                 if (_src) {
                     $('#lg-download').attr('href', _src);
-                    _this.$outer.removeClass('lg-hide-download');
+                    _this.$find(outer).removeClass('lg-hide-download');
                 } else {
-                    _this.$outer.addClass('lg-hide-download');
+                    _this.$find(outer).addClass('lg-hide-download');
                 }
             }
 
