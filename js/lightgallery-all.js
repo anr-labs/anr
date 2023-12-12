@@ -294,8 +294,8 @@
             '</div>' +
             '</div>';
 
-        $('body').append(template);
-        this.$outer = $('.lg-outer');
+        $find('body').append(template);
+        this.$outer = $find('.lg-outer');
         this.$slide = this.$outer.find('.lg-item');
 
         if (this.s.useLeft) {
