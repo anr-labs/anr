@@ -481,7 +481,7 @@
                 // if first letter starts with . or # get the html form the jQuery object
                 var fL = subHtml.substring(0, 1);
                 if (fL === '.' || fL === '#') {
-                    subHtml = $(subHtml).html();
+                    subHtml = $find(subHtml).html();
                 }
             } else {
                 subHtml = '';
