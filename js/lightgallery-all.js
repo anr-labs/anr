@@ -113,13 +113,13 @@
         if (this.s.dynamic) {
             this.$items = this.s.dynamicEl;
         } else {
-            if (this.s.selector === 'this') {
+            if (this.s.sourceSelector === 'this') {
                 this.$items = this.$el;
-            } else if (this.s.selector !== '') {
+            } else if (this.s.sourceSelector !== '') {
                 if (this.s.selectWithin) {
-                    this.$items = $(this.s.selectWithin).find(this.s.selector);
+                    this.$items = $(this.s.selectWithin).find(this.s.sourceSelector);
                 } else {
-                    this.$items = this.$el.find($(this.s.selector));
+                    this.$items = this.$el.find($(this.s.sourceSelector));
                 }
             } else {
                 this.$items = this.$el.children();
