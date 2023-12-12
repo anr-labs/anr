@@ -208,7 +208,7 @@ var penelope = function() {
 	var navbarList = $('nav.navbar li');
 	for (var i = 0; i < navbarList.length; i++) {
 		var text = $(navbarList[i]).find('span').text();
-		$(navbarList[i]).find('a').append('<span>' + text + '</span>');
+		$find(navbarList[i]).find('a').append('<span>' + text + '</span>');
 	}
 	/*Header script end*/
 	
