@@ -422,8 +422,23 @@ p {
     transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1) 0s; }
   .btn:hover .mask {
     width: 100%; }
+.btn.btn-default.float-left {
+    background: #e91e63;
+    border-radius: 2px;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: 1;
+    -moz-transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -webkit-transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1) 0s; 
+}
 .btn.btn-default.float-left:hover {
-    color: #e91e63; 
+     width: 100%;; 
 }
 .name span {
   font-size: 16px;
