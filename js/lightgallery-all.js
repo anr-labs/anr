@@ -764,7 +764,7 @@
                 }
 
                 if (_src) {
-                    $('#lg-download').attr('href', _src);
+                    $find('#lg-download').attr('href', _src);
                     _this.$find(outer).removeClass('lg-hide-download');
                 } else {
                     _this.$find(outer).addClass('lg-hide-download');
